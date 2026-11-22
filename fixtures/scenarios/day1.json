@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {"source_id": "product-14", "record_kind": "product", "collected_at": "2026-11-20T08:55:00+08:00", "payload": {"sku_ref": "SKU-14", "name": "合成·足金手镯", "default_weight_gram": 12.5}},
+    {"source_id": "product-20", "record_kind": "product", "collected_at": "2026-11-20T08:55:00+08:00", "payload": {"sku_ref": "SKU-20", "name": "合成·足金项链", "default_weight_gram": 8.2}},
+    {"source_id": "product-30", "record_kind": "product", "collected_at": "2026-11-20T08:55:00+08:00", "payload": {"sku_ref": "SKU-30", "name": "合成·足金戒指", "default_weight_gram": 4.6}},
+
+    {"source_id": "market-10", "record_kind": "market_price", "collected_at": "2026-11-20T09:00:00+08:00", "payload": {"market_ref": "MKT-SYN-A", "metal": "gold", "price_per_gram_yuan": 832.0, "valid_from": "2026-11-20T09:00:00+08:00", "revision": 10}},
+    {"source_id": "market-11", "record_kind": "market_price", "collected_at": "2026-11-20T13:55:00+08:00", "payload": {"market_ref": "MKT-SYN-A", "metal": "gold", "price_per_gram_yuan": 845.0, "valid_from": "2026-11-20T14:00:00+08:00", "revision": 11}},
+
+    {"source_id": "tag-14-sys", "record_kind": "counter_price", "collected_at": "2026-11-20T09:35:00+08:00", "payload": {"store_ref": "STORE-SYN-3", "sku_ref": "SKU-14", "making_fee_per_gram_yuan": 55.0, "discount": 0.6, "valid_until": "2026-11-20T18:00:00+08:00", "channel": "system"}},
+    {"source_id": "tag-20-tag", "record_kind": "counter_price", "collected_at": "2026-11-20T09:36:00+08:00", "payload": {"store_ref": "STORE-SYN-3", "sku_ref": "SKU-20", "making_fee_per_gram_yuan": 60.0, "discount": 0.6, "valid_until": "2026-11-20T18:00:00+08:00", "channel": "tag"}},
+    {"source_id": "tag-20-sys", "record_kind": "counter_price", "collected_at": "2026-11-20T09:36:30+08:00", "payload": {"store_ref": "STORE-SYN-3", "sku_ref": "SKU-20", "making_fee_per_gram_yuan": 60.0, "discount": 0.65, "valid_until": "2026-11-20T18:00:00+08:00", "channel": "system"}},
+    {"source_id": "tag-30-old", "record_kind": "counter_price", "collected_at": "2026-11-19T09:30:00+08:00", "payload": {"store_ref": "STORE-SYN-3", "sku_ref": "SKU-30", "making_fee_per_gram_yuan": 40.0, "discount": 0.9, "valid_until": "2026-11-19T18:00:00+08:00", "channel": "system"}},
+
+    {"source_id": "promo-8-r1", "record_kind": "promotion", "collected_at": "2026-11-20T09:36:00+08:00", "payload": {"promotion_ref": "PROMO-8", "discount": 0.95, "stackable_with_member": true, "stackable_with_exchange": false, "starts_at": "2026-11-20T00:00:00+08:00", "ends_at": "2026-11-22T23:59:00+08:00"}},
+    {"source_id": "promo-8-r2", "record_kind": "promotion", "collected_at": "2026-11-20T12:00:00+08:00", "payload": {"promotion_ref": "PROMO-8", "discount": 0.97, "stackable_with_member": true, "stackable_with_exchange": false, "starts_at": "2026-11-20T00:00:00+08:00", "ends_at": "2026-11-21T23:59:00+08:00"}},
+
+    {"source_id": "assay-22-r1", "record_kind": "assay", "collected_at": "2026-11-20T10:12:00+08:00", "payload": {"assay_ref": "ASSAY-22", "item_ref": "ITEM-SYN-72", "weight_gram": 20.4, "purity_per_mille": 990, "tested_at": "2026-11-20T10:09:00+08:00", "revision": 1}},
+    {"source_id": "assay-22-r2", "record_kind": "assay", "collected_at": "2026-11-20T11:25:00+08:00", "payload": {"assay_ref": "ASSAY-22", "item_ref": "ITEM-SYN-72", "weight_gram": 20.4, "purity_per_mille": 995, "tested_at": "2026-11-20T11:20:00+08:00", "revision": 2}},
+
+    {"source_id": "sale-19", "record_kind": "sale", "collected_at": "2026-11-20T10:25:00+08:00", "payload": {"sale_ref": "SALE-19", "sku_ref": "SKU-14", "assay_ref": "ASSAY-22", "state": "held", "quote_revision": 1, "inquiry_ref": "INQ-1", "customer_ref": "CUST-SYN-1", "confirmed_at": "2026-11-20T10:25:00+08:00"}},
+    {"source_id": "sale-20", "record_kind": "sale", "collected_at": "2026-11-20T14:35:00+08:00", "payload": {"sale_ref": "SALE-20", "sku_ref": "SKU-14", "state": "paid", "quote_revision": 1, "inquiry_ref": "INQ-3", "customer_ref": "CUST-SYN-3", "confirmed_at": "2026-11-20T14:35:00+08:00"}},
+    {"source_id": "sale-21", "record_kind": "sale", "collected_at": "2026-11-20T13:00:00+08:00", "payload": {"sale_ref": "SALE-21", "sku_ref": "SKU-20", "state": "held", "quote_revision": 9, "inquiry_ref": "INQ-9", "customer_ref": "CUST-SYN-9", "confirmed_at": "2026-11-20T13:00:00+08:00"}}
+  ]
+}
